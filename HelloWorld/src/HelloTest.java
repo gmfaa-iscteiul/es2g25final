@@ -9,7 +9,7 @@ import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
 
-public class HelloTest extends TestCase{
+public class HelloTest extends TestSuite{
 
 	@BeforeAll
 	static void setUpBeforeClass() throws Exception {
