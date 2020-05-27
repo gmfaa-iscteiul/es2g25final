@@ -21,7 +21,7 @@ stage('Remove Existing Container'){
     }
     
 stage ('Runing Container to test built Docker Image'){
-    powershell "docker run -d -p 8:8 --name ${container} ${imagename}"
+    powershell "docker run -dit --name ${container} -p 8:8 ${imagename}"
     }
     
 stage('Tag Docker Image'){
