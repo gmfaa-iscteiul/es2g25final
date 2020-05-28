@@ -1,6 +1,6 @@
 
 /**
- * @author Gonçalo Almeida
+ * @author GonÃ§alo Almeida
  *
  */
 public class Hello {
@@ -17,6 +17,9 @@ public class Hello {
 		return x*y;
 	}
 
+	public static void main(String[] args) {
+		System.out.println("helloworld");
+	}
 	
 	
 }
